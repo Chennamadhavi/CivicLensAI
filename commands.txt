@@ -1,0 +1,7 @@
+python -m venv venv
+
+.\venv\Scripts\activate
+
+pip install streamlit google-generativeai python-dotenv pillow
+
+streamlit run app.py
